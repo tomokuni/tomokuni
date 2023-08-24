@@ -1,7 +1,7 @@
-### Certifications
-[AWS badges](https://www.sejuku.net/blog](https://www.credly.com/users/tomokuni-sekiya/badges)
-[Certifications list](https://www.sejuku.net/blog](https://www.credly.com/users/tomokuni-sekiya/badges/)
-
+### Certifications  
+[AWS badges](https://www.sejuku.net/blog](https://www.credly.com/users/tomokuni-sekiya/badges)  
+[Certifications list](https://www.sejuku.net/blog](https://www.credly.com/users/tomokuni-sekiya/badges/)  
+  
 <!--
 **tomokuni/tomokuni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
