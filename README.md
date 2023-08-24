@@ -1,4 +1,8 @@
-### Hi there 👋
+### AWS badges
+https://www.credly.com/users/tomokuni-sekiya/badges
+
+### 保有資格一覧
+https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP
 
 <!--
 **tomokuni/tomokuni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
