@@ -1,6 +1,6 @@
 ### Certifications  
 [AWS badges](https://www.sejuku.net/blog](https://www.credly.com/users/tomokuni-sekiya/badges)  
-[https://www.sejuku.net/blog](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP) 
+
 [Certifications list](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP)  
 
 https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP
