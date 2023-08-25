@@ -1,4 +1,4 @@
-### Certifications  
+### Certifications (取得資格)  
 [AWS badges](https://www.credly.com/users/tomokuni-sekiya/badges)  
 [Certifications list](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP)  
 
