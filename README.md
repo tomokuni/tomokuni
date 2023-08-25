@@ -1,11 +1,13 @@
+### Fonts (フォント)  
+[プログラミング用フォント Myrica](https://myrica.estable.jp/)  
+[Myrica GitHub](https://github.com/tomokuni/Myrica)  
+
+
+  
 ### Certifications (取得資格)  
 [AWS badges](https://www.credly.com/users/tomokuni-sekiya/badges)  
 [Certifications list](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP)  
   
-  
-### Fonts (フォント)  
-[プログラミング用フォント Myrica](https://myrica.estable.jp/)  
-[Myrica GitHub](https://github.com/tomokuni/Myrica)  
   
 <!--
 **tomokuni/tomokuni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
