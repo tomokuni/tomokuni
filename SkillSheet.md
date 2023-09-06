@@ -53,7 +53,7 @@
 > - 社内向けシステムの保守/カスタマイズ。
 > - C#による ライブラリ開発、バックエンド開発、ASP.NETによるフロントエンド開発、Formアプリ開発。
 > - AWS と C# を前提としたアーキテクチャ設計を実施し Blazor でのプロトタイプ開発中
-> - AWS資格(Professionalまでの6個)を取得を機にAWS運用業務を担当
+> - AWS資格を取得を機にAWS運用業務を担当
 > #### 運用/開発環境
 > - 環境： AWS、Windows、Linux、SQLServer、MySQL 
 > - 言語： C#、ASP.NET、PHP
