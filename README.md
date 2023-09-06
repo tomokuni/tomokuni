@@ -1,9 +1,9 @@
-# Fonts (フォント)  
+# ■ Fonts (フォント)  
 [プログラミング用フォント Myrica](https://myrica.estable.jp/)  
 [Myrica GitHub](https://github.com/tomokuni/Myrica)  
 
   
-# Skill Sheet (スキルシート)
+# ■ Skill Sheet (スキルシート)
 
 > **目次**
 > - [職務要約](#職務要約)
