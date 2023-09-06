@@ -9,7 +9,7 @@
 
 
 # Skill Sheet
-[Skill Sheet]
+[Skill Sheet](SkillSheet.md)
 
   
 <!--
