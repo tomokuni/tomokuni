@@ -2,7 +2,7 @@
 [プログラミング用フォント Myrica](https://myrica.estable.jp/)  
 [Myrica GitHub](https://github.com/tomokuni/Myrica)  
 
-  
+@import "SkillSheet.md"
 # ■ Skill Sheet (スキルシート)
 
 > **目次**
