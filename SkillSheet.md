@@ -60,7 +60,7 @@
 
 
 ## 保有資格
-- AWS ６冠 [AWS badges](https://www.credly.com/users/tomokuni-sekiya/badges)
+- [AWS ６冠](https://www.credly.com/users/tomokuni-sekiya/badges)
 - [資格一覧](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP)  
 
 |合格日|種別|試験名|有効期限|備考|
