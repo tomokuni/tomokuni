@@ -4,7 +4,7 @@
 > - [職務要約](#職務要約)
 > - [保有技術・生かせる経験/知識](#保有技術・生かせる経験/知識)
 > - [職務経歴](#職務経歴) ([経歴 (1)](#経歴-(1))、 [経歴 (2)](#経歴-(2)))
-> - [保有資格](#保有資格) ([AWS ６冠](https://www.credly.com/users/tomokuni-sekiya/badges)、  [資格一覧](https://1drv.ms/x/s!AhO5VeFzguBkgZVR9KpNu_DoO_I07w?e=JndUzP))
+> - [保有資格](#保有資格) ([AWS](https://www.credly.com/users/tomokuni-sekiya/badges))
 
 
 ## 職務要約
