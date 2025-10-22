@@ -53,9 +53,10 @@ public static class MinHeightPartitionSolver
             throw new ArgumentException("アイテムリストは少なくとも1つの要素を含む必要があります。", nameof(items));
 
         Result? bestResult = null;
+        var maxColumns = Math.Min(10, items.Count);
 
         // 列数を1から10まで試行
-        for (var columnCount = 1; columnCount <= Math.Min(10, items.Count); columnCount++)
+        for (var columnCount = 1; columnCount <= maxColumns; columnCount++)
         {
             var result = TryPartition(items, columnCount, widthLimit, rowSpace, columnSpace);
             
@@ -154,6 +155,7 @@ public static class MinHeightPartitionSolver
 
     /// <summary>
     /// 分割のメトリクス（最大高さと使用幅）を計算します。
+    /// メモリ効率を考慮し、中間リストを使わずに計算します。
     /// </summary>
     private static (double MaxHeight, double UsedWidth) CalculatePartitionMetrics(
         IReadOnlyList<Item> items,
@@ -161,8 +163,8 @@ public static class MinHeightPartitionSolver
         double rowSpace,
         double columnSpace)
     {
-        var columnWidths = new List<double>();
-        var columnHeights = new List<double>();
+        var maxHeight = 0.0;
+        var totalWidth = 0.0;
 
         // 各列のメトリクスを計算
         for (var col = 0; col < partition.Count; col++)
@@ -171,18 +173,21 @@ public static class MinHeightPartitionSolver
             var endIdx = col == partition.Count - 1 ? items.Count : partition[col + 1];
             
             var (width, height) = CalculateColumnMetrics(items, startIdx, endIdx, rowSpace);
-            columnWidths.Add(width);
-            columnHeights.Add(height);
+            
+            if (height > maxHeight)
+                maxHeight = height;
+            
+            totalWidth += width;
         }
 
-        var maxHeight = columnHeights.Max();
-        var usedWidth = columnWidths.Sum() + (partition.Count - 1) * columnSpace;
+        var usedWidth = totalWidth + (partition.Count - 1) * columnSpace;
 
         return (maxHeight, usedWidth);
     }
 
     /// <summary>
     /// 1つの列のメトリクス（幅と高さ）を計算します。
+    /// メモリ効率を考慮し、中間コレクションを生成せずに直接計算します。
     /// </summary>
     private static (double Width, double Height) CalculateColumnMetrics(
         IReadOnlyList<Item> items,
@@ -190,12 +195,21 @@ public static class MinHeightPartitionSolver
         int endIdx,
         double rowSpace)
     {
-        var columnItems = items.Skip(startIdx).Take(endIdx - startIdx).ToList();
-        
-        var width = columnItems.Max(item => item.Width);
-        var height = columnItems.Sum(item => item.Height) + Math.Max(0, columnItems.Count - 1) * rowSpace;
+        var maxWidth = 0.0;
+        var totalHeight = 0.0;
+        var itemCount = endIdx - startIdx;
 
-        return (width, height);
+        for (var i = startIdx; i < endIdx; i++)
+        {
+            if (items[i].Width > maxWidth)
+                maxWidth = items[i].Width;
+            
+            totalHeight += items[i].Height;
+        }
+        
+        var height = totalHeight + Math.Max(0, itemCount - 1) * rowSpace;
+
+        return (maxWidth, height);
     }
 
     /// <summary>
